@@ -33,8 +33,8 @@ public class RestDocsIntegrationTest extends IntegrationTest {
     }
 
     @Test
-    @DisplayName("[put] [/api/v1/articles] 게시글 등록")
-    void postArticlesTest() {
+    @DisplayName("테스트")
+    void test() {
 
         ExtractableResponse<Response> response = RestAssured
                 .given(this.spec).log().all()
